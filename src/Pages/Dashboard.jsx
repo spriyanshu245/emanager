@@ -94,7 +94,7 @@ export const Dashboard = () => {
             <tbody>
               {employees?.data.map((item, index) => (
                 <tr key={index}>
-                  <td><Link to={`/details/${item._id}`} state={item}>
+                  <td><Link to={`/emanager/details/${item._id}`} state={item}>
                     {item._id}
                   </Link>
                   </td>

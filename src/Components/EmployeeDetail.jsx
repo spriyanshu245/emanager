@@ -9,7 +9,7 @@ export const EmployeeDetail = (props) => {
       <Card.Header className="bg-ternary display-flex"
         style={{ display: "flex", justifyContent: "space-between" }}>
         <span>Employee Details </span>
-        <span><Link to={`/`}><CloseButton /></Link></span>
+        <span><Link to={`/emanager/`}><CloseButton /></Link></span>
       </Card.Header>
       <Card.Body>
         <Row>
