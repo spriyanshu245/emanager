@@ -15,7 +15,6 @@ export const Dashboard = () => {
     try {
       const response = await api.getEmployees("employeelist", { limit: limit, offset: 0 });
       setEmployees(response);
-      console.log(response.page, response.data.length)
     } catch (error) {
       setError(error);
     } finally {
@@ -29,7 +28,8 @@ export const Dashboard = () => {
 
   const handleDelete = async (id) => {
     try {
-      await api.deleteEmployee("employeelist", id);
+      const response = await api.deleteEmployee("employeelist", id);
+      alert(response?.message)
       setEmployees((prevEmployees) => {
         const filteredEmployees = { ...prevEmployees };
         filteredEmployees.data = filteredEmployees.data.filter((item) => item._id !== id);
