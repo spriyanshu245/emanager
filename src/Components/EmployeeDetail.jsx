@@ -6,7 +6,7 @@ export const EmployeeDetail = (props) => {
 
   return (
     <Card className="bg-body-secondary p-3 my-2">
-      <Card.Header className="bg-ternary text-white display-flex"
+      <Card.Header className="bg-ternary display-flex"
         style={{ display: "flex", justifyContent: "space-between" }}>
         <span>Employee Details </span>
         <span><Link to={`/`}><CloseButton /></Link></span>
