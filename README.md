@@ -11,5 +11,12 @@ Currently, two official plugins are available:
 
 AppSecret JSON file is created to store ids and api keys, ideally should not to be uploaded on github but due to project presentataion, it is uploaded.
 
+To Start the application in local environment :
+
+1. Clone git repo
+2. npm install
+3. npm run dev
+make surre to install vite if not installed.
+
  © Priyanshu Singh
 
