@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.table-emp {
+  height: 70vh;
+  width: 80vw;
+  overflow-y: auto;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px;
+}
+
+Table th{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.empty-tbl {
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.action-col {
+  text-align: center;
+}
+
+.alert-err {
+  color: red;
+}
